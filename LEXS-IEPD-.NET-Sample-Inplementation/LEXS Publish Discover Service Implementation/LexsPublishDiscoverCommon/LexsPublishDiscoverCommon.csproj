@@ -1,0 +1,1140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{81B1FFEF-3408-4D74-AD64-63F21F27C30F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LexsPublishDiscoverCommon</RootNamespace>
+    <AssemblyName>LexsPublishDiscoverCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityEmailAddressAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityHashAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityInstantMessengerAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityInvolvedPersonAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityItemAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityLocationAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityNetworkAddressAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityOrganizationAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityPersonAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityTelephoneNumberAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ActivityType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AddressType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AdoptedChildAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AdvisoryCategoryCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AdvisoryCategoryCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AdvisoryType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AircraftType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AmountType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AngularMinuteType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AngularSecondType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AnyURIType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AppliesTo.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AttachmentLinkType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AttachmentRequestMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AttachmentResponseMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AttachmentType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AugmentationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AuthorityFigureAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AvailabilityResponseMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BailBondAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Base.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="base64Binary.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BCOCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BCOCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BinaryType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BMACodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BMACodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="boolean.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BTMACodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BTMACodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BTYCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BTYCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CALCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CALCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CapabilitiesResponseMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CapabilitiesType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CMCCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CMCCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CommunityPedigreeURIType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ComplexObjectType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ContactInformationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ConveyanceType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CountryCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CountryCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CreditCardType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CriminalOrganizationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CriminalTraitDetailsType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="CurrencyCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataCategoryCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataCategoryCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataContactType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataItemCategoryType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataItemPackageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataItemPublishInstructionCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataItemPublishInstructionCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataItemRequestMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataItemResponseMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataOwnerIdentifierType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataOwnerInformationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataOwnerMetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DataOwnersResponseMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="date.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DateRangeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="dateTime.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DateType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="decimal.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DeclarationPersonAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Deprecated.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DigestQueryFieldType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DigestQueryStatementType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DigestType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DisseminationCriteriaCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DisseminationCriteriaCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DisseminationCriteriaValueType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DocumentPersonAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DocumentType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DomainAttributeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DomainRequestMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DomainResponseMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="doPublish.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoPublishType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DriverLicenseBaseType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DriverLicenseType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DrugCategoryCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrugCategoryCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DrugMeasurementCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DrugMeasurementCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DrugType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="duration.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ElectronicAddressAugmentationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ElectronicAddressType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ElectronicAddressType1.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EmailMessageAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EnforcementOfficialType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EnforcementUnitType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityActivityType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityAircraftType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityAssociationsType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityAttachmentLinkAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityCreditCardType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityDocumentType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityDrugType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityEmailAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityEmailType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityExplosiveType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityFirearmType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityHashType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityInstantMessengerAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityInstantMessengerType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityIntangibleItemType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityLocationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityNetworkAddressAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityNetworkAddressType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityOrganizationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityPersonType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntitySubstanceType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityTangibleItemType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityTelephoneNumberAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityTelephoneNumberType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityType1.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityVehicleType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EntityVesselType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ExplosiveComponentCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExplosiveComponentCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ExplosiveContainerCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExplosiveContainerCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ExplosiveFillerCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExplosiveFillerCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ExplosiveIgnitionCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ExplosiveIgnitionCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ExplosiveType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EYECodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EYECodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="FacilityType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="FamilyKinshipCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FamilyKinshipCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="FirearmType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="FullTelephoneNumberType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="GuardianAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="GUNColorFinishCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUNColorFinishCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="gYear.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="gYearMonth.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="HAICodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HAICodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="HashType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="HashValueType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="HazmatUNCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HazmatUNCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="HSPCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HSPCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="HULCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HULCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="IdentificationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ILEXSPublishDiscoverPortType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ImmediateFamilyAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="InstantMessengerAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="InstantMessengerType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="IntangibleItemType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="InternationalTelephoneNumberType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ItemChoiceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ItemChoiceType1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ItemChoiceType2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ItemContainerAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ItemEmailAddressAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ItemInstantMessengerAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ItemLocationAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ItemNetworkAddressAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ItemsChoiceType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ItemsChoiceType1.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ItemTelephoneNumberAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ItemType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ItemValueType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="JudicialOfficialType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="JurorType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LanguageCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LanguageCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LatitudeCoordinateType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LatitudeDegreeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LengthCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LengthCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LengthMeasureType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LesseeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LessorType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LISCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LISCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LocationAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LocationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LongitudeCoordinateType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LongitudeDegreeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MAKCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MAKCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MarriageStatusCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MarriageStatusCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MarriageStatusType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MassCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MassCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MeasurePointValueType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MeasureRangeValueType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MeasureType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MessageMetadataAbstractType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MetadataType1.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MetadataType2.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MissingPersonType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MNUCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MNUCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="MPCCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MPCCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="NANPTelephoneNumberType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="NetworkAddressAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="NonNegativeDecimalType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="nonNegativeInteger.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="NumberOfStructuredPayloadTermsType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="NumericType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="OrganizationAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="OrganizationItemAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="OrganizationLocationAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="OrganizationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="OrganizationUnitAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="OtherInvolvedPersonType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PackageAbstractType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PackageMetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PayloadObjectReferenceType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PDMessageMetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonAugmentationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonAugmentationType1.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonContactAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonConveyanceAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonEmploymentAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonItemAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonLanguageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonLastSeenWitnessAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonLocationAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonNameTextType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonNameType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonOrganizationAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonRegisterNumberType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonResidenceAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonTelephoneNumberListAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonType1.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonUnionAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PersonWorkerAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PhysicalMailAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PROCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PROCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ProperNameTextType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PublishMessageContainerType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PublishMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="QuantityType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="QueryMatchCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="QueryMatchCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RACCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RACCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ReferenceTarget.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ReferenceType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ReferenceType1.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RegisteredOffenderType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RelatedActivityAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RenderingInstructionsType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RenderingMethodCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RenderingMethodCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RenderingParameterType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RequestMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RESCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RESCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Resource.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ResourceType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ResponseMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ResponseMetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ResultCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ResultCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RoleListType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="RoleTypeCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RoleTypeCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SameAsPayloadAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SearchRequestMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SearchRequestMetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SearchResponseMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SearchResponseMetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SearchResultPackageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ServiceAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SEXCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SEXCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SortOrderCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SortOrderCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SRMessageMetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SRMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StatusType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StreetType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="string.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredAddressType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredPayloadMetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredPayloadQueryFieldType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredPayloadQueryStatementType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredPayloadsRequestedCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StructuredPayloadsRequestedCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredPayloadsRequestedListType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredPayloadType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredQueryType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredSearchRequestMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StructuredSearchType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SubjectPersonAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SubjectType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SubjectVictimAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SubjectWitnessAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SubstanceMeasureType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SubstanceType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SystemIdentifierType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SystemMetadataType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TangibleItemType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TelephoneCallAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TelephoneNumberCategoryCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TelephoneNumberCategoryCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TelephoneNumberType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TelephoneNumberType1.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TextSearchRequestMessageType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TextSearchType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TextType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TimeCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TimeCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TimeMeasureType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TransportationAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TwoDimensionalGeographicCoordinateType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TYPCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TYPCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TYPDescriptionCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TYPDescriptionCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="UserAssertionType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VCOCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VCOCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VehicleBranderType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VehicleType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VesselType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VictimType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VictimWitnessAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VisitorAssociationType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VMACodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VMACodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VMOCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VMOCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="VSTCodeSimpleType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VSTCodeType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="WeaponType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="WeightMeasureType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="WitnessType.cs">
+      <SubType>code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

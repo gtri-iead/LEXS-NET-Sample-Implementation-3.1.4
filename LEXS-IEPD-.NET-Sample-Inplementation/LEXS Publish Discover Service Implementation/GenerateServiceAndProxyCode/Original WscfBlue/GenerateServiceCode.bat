@@ -1,0 +1,1 @@
+WscfGen.exe /n:LexsPublishDiscoverWebService /i:..\..\LEXS3.1.4\wsdl\lexsPDwebserviceImpl.wsdl /o:.\Service /server /separateFiles

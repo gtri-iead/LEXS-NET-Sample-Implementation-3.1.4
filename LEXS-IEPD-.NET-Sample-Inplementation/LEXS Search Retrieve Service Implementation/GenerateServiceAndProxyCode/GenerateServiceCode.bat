@@ -1,0 +1,1 @@
+WscfGen.exe /n:LexsSearchRetrieveWebService /i:..\LEXS3.1.4\wsdl\lexsSRwebserviceImpl.wsdl /o:.\Service /server /separateFiles

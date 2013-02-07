@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ClientServiceGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQABACAIAAAAQAAAAAAAAAABkAAACBgABAA=</HashCode>
+      <FileName>ClientServiceGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.AttributableCodeDomObject" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQAAAQAAAAAAASAAABAAABAAAAAAAA=</HashCode>
+      <FileName>CodeDomExtensions\AttributableCodeDomObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeAttributeArgumentExtended" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CodeDomExtensions\CodeAttributeArgumentExtended.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeDomExtensions" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>CodeDomExtensions\CodeDomExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeTypeExtension" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAKAEEAAAABAAAAAQAAAAAAAAgAAAAIAAAAAQAACgFA=</HashCode>
+      <FileName>CodeDomExtensions\CodeTypeExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeTypeMemberExtension" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAABAQAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CodeDomExtensions\CodeTypeMemberExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.FilteredTypeMembers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGYAAEAAAAAAABAQCAAABAQAAAACAAAACAAAAABQIAA=</HashCode>
+      <FileName>CodeDomExtensions\FilteredTypeMembers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.FilteredTypes" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGIAAEAAAAAAABAYCAAABAQAAAACAAAACAAAAABQIAA=</HashCode>
+      <FileName>CodeDomExtensions\FilteredTypes.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeGenerator" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAACAIAAAAAAAAAAgAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>CodeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeWriter" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EGAAAwQABAAQAAAIAAAAAAACAACAAAAZQAABAAGEAAA=</HashCode>
+      <FileName>CodeWriter\CodeWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeWriterOutput" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAACEAAA=</HashCode>
+      <FileName>CodeWriter\CodeWriterOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.Rpc2DocumentLiteralTranslationException" Collapsed="true">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContractModifiers\Rpc2DocumentLiteralTranslationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.R2DBinding" Collapsed="true">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAAABAAAAAAAAAAQAAABEAAAAAAAEAQAAEAA=</HashCode>
+      <FileName>ContractModifiers\Rpc2DocumentLiteralTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.R2DPortType" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAAABAgAAAAAAAAQAAABEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ContractModifiers\Rpc2DocumentLiteralTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.R2DOperation" Collapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SCAAAEAAAAQhAAAAAAAAAAQAAABEBAAAABQEAAQAAAA=</HashCode>
+      <FileName>ContractModifiers\Rpc2DocumentLiteralTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.R2DMessage" Collapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEIAAAABAAAAAAAAAAQAAABEAAAAAAAEAACAAAA=</HashCode>
+      <FileName>ContractModifiers\Rpc2DocumentLiteralTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.R2DType" Collapsed="true">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAEAAAAABAAAAAAAAAAQAAAAEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>ContractModifiers\Rpc2DocumentLiteralTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ElementStore" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAACAAgAAgAIAAAAACAAAABgAAAAAEAEAQJAAAE=</HashCode>
+      <FileName>ContractModifiers\Rpc2DocumentLiteralTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.Rpc2DocumentLiteralTranslator" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAIAABAJAABAEACAQgAQAACICAAFCABEAAICQBA=</HashCode>
+      <FileName>ContractModifiers\Rpc2DocumentLiteralTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.DataContractGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAACAIAAAAAAAAACAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>DataContractGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeDecorators" Collapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\CodeDecorators.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ArraysToCollectionsConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Decorators\CollectionGenerators\ArraysToCollectionsConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ArraysToListsConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Decorators\CollectionGenerators\ArraysToListsConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CollectionTypeGenerator" Collapsed="true">
+    <Position X="15.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBABAAYAAAAAwAAAAAAAAAIAAAgQAAAAAABACAAAA=</HashCode>
+      <FileName>Decorators\CollectionGenerators\CollectionTypeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CollectionTypeProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAACAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\CollectionGenerators\CollectionTypeProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ListTypeProvider" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\CollectionGenerators\ListTypeProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ConfigurationDecorator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAIAAAAAAAAAQAAIBCAAAAAAAAAAAAiAAA=</HashCode>
+      <FileName>Decorators\ConfigurationDecorators\ConfigurationDecorator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ClientTypeConverter" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAISBAAAAAAgAAAAAAAAACAAAACA=</HashCode>
+      <FileName>Decorators\PascalCaseConverter\ClientTypeConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeRefactoringAgent" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAYAAQAgAAAgAQQAgAAIAAABAAACAAIAAAAACACQAAA=</HashCode>
+      <FileName>Decorators\PascalCaseConverter\CodeRefactoringAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.DataContractConverter" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAISBAAAAAAgAAAAAAAAACAAAADA=</HashCode>
+      <FileName>Decorators\PascalCaseConverter\DataContractConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.MessageContractConverter" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAISBAAAAAAgAAAAAAAAACAAAACA=</HashCode>
+      <FileName>Decorators\PascalCaseConverter\MessageContractConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.PascalCaseConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAIAAAAAAABAAAAAAAIAABAAAAAAAAAABgAAA=</HashCode>
+      <FileName>Decorators\PascalCaseConverter\PascalCaseConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.PascalCaseConverterBase" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIgAAAQAABBAAIShBEEAEAgBAAAAAAAADAAAACA=</HashCode>
+      <FileName>Decorators\PascalCaseConverter\PascalCaseConverterBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.PascalCaseConverterFactory" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\PascalCaseConverter\PascalCaseConverterFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.PascalCaseConverterHelper" Collapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABIAAAAAIAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\PascalCaseConverter\PascalCaseConverterHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ServiceContractConverter" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAISBAAAAAAgAAAAAAAAACAAAACA=</HashCode>
+      <FileName>Decorators\PascalCaseConverter\ServiceContractConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ServiceTypeGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAIAAAAAAAIAAAIAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Decorators\ServiceTypeGenerator\ServiceTypeGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ClientServiceGenerationException" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAA=</HashCode>
+      <FileName>Exceptions\ClientServiceGenerationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeWriterException" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\CodeWriterException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.MetadataResolveException" Collapsed="true">
+    <Position X="15.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\MetadataFactoryExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ExtendedCodeDomTree" Collapsed="true">
+    <Position X="15.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAEAMAAAgIAAAAAAAgAAAAACACkAQAABAAABA=</HashCode>
+      <FileName>ExtendedCodeDomTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.MetadataFactory" Collapsed="true">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABSAAAAAAAAEQAAAAAJAAAAAAAEAAQBAAAAAAAgAAAA=</HashCode>
+      <FileName>MetadataFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeGenerationOptions" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAyEBAAAAGEQQEAQAACAAFAAACAoAQBREhAAA=</HashCode>
+      <FileName>Options\CodeGenerationOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeGenerationOptionsParser" Collapsed="true">
+    <Position X="15.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAABAAAAAAACAAIAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Options\CodeGenerationOptionsParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeWriterOptions" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAyAAAAAAEAAAAAAAAAAAAAAAAAAAABQEAAAA=</HashCode>
+      <FileName>Options\CodeWriterOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.CustomCodeGenerationOptions" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAQUAAAAACEAAEAQAACAABAAAAAgAQABAgAAA=</HashCode>
+      <FileName>Options\CustomCodeGenerationOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.InternalCodeGenerationOptions" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAACABAAAgAQAIAEAACABAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Options\InternalCodeGenerationOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.MetadataResolverOptions" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAABAAAAQAAAAAAQAAEAAACAAAAAgEgAAA=</HashCode>
+      <FileName>Options\MetadataResolverOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.PrimaryCodeGenerationOptions" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAFQAAAAEAQAAQAAAAAAAGAAAIAgAACBACA=</HashCode>
+      <FileName>Options\PrimaryCodeGenerationOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.TextFile" Collapsed="true">
+    <Position X="20.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ClientTypeTypeFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeFilters\ClientTypeFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.DataContractTypeFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeFilters\DataContractTypeFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.MessageContractTypeFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeFilters\MessageContractTypeFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ServiceContractTypeFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeFilters\ServiceContractTypeFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.ServiceTypeTypeFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeFilters\ServiceTypeFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.Decorators.ActionDecorator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAgAAA=</HashCode>
+      <FileName>Decorators\ActionDecorator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thinktecture.Tools.Web.Services.CodeGeneration.Decorators.SvcFileGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Decorators\SvcFileGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Thinktecture.Tools.Web.Services.CodeGeneration.ICollectionTypeProvider" Collapsed="true">
+    <Position X="13.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decorators\CollectionGenerators\ICollectionTypeProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Thinktecture.Tools.Web.Services.CodeGeneration.ICodeDecorator" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Decorators\ICodeDecorator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Thinktecture.Tools.Web.Services.CodeGeneration.ICodeGenerator" Collapsed="true">
+    <Position X="11.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICodeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Thinktecture.Tools.Web.Services.CodeGeneration.ITypeFilter" Collapsed="true">
+    <Position X="15.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeFilters\ITypeFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeTypeKind" Collapsed="true">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAAAAAAAAAAAAAAAAgAAAAAQgAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CodeDomExtensions\Enums\CodeTypeKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeTypeMemberKind" Collapsed="true">
+    <Position X="13.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAgAAQAAgAAAAAAAAAAAwAAgBA=</HashCode>
+      <FileName>CodeDomExtensions\Enums\CodeTypeMemberKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Thinktecture.Tools.Web.Services.CodeGeneration.CodeLanguage" Collapsed="true">
+    <Position X="10" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Options\Enums\CodeLanguage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Thinktecture.Tools.Web.Services.CodeGeneration.MethodImplementation" Collapsed="true">
+    <Position X="15.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAIA=</HashCode>
+      <FileName>Options\MethodImplementation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

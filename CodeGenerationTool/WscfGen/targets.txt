@@ -1,0 +1,35 @@
+
+1. Message Instance Client (single file)
+
+/n:CommercialVehicleCollisionWebService /i:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl\CommercialVehicleCollisionWebserviceImpl.wsdl /o:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl\source\client
+
+
+2. Message Instance Server (separate files)
+
+/n:CommercialVehicleCollisionWebService /i:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl\CommercialVehicleCollisionWebserviceImpl.wsdl /o:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl\source\server /server /separateFiles 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+3. Document Instance Client (single file)
+
+/n:CommercialVehicleCollisionWebService /i:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl_Document\CommercialVehicleCollisionWebserviceImpl.wsdl /o:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl_Document\source\client
+
+
+4. Document Instance Server (separate files)
+
+/n:CommercialVehicleCollisionWebService /i:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl_Document\CommercialVehicleCollisionWebserviceImpl.wsdl /o:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl_Document\source\server /server /separateFiles 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+5. Message Original Client Unchanged (separate files)
+
+/n:CommercialVehicleCollisionWebService /i:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl_Message_Original\CommercialVehicleCollisionWebserviceImpl.wsdl /o:C:\Users\rs239\Documents\NIEM\CommercialVehicleCollision\wsdl_Message_Original\source\client
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+6. LEXS client (single file)
+
+/n:SRWebServiceClientTest /i:C:\Users\rs239\Documents\NIEM\lexs-48968\Schemas\LEXS3.1.4\wsdl\lexsSRwebserviceImpl.wsdl /o:C:\Users\rs239\Documents\NIEM\lexs-48968\Schemas\LEXS3.1.4\wsdl

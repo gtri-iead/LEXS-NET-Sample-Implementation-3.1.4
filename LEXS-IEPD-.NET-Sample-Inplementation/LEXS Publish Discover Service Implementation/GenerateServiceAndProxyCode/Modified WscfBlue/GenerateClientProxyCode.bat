@@ -1,0 +1,1 @@
+WscfGen.exe /n:LexsPublishDiscoverClientProxy /i:..\..\LEXS3.1.4\wsdl\lexsPDwebserviceImpl.wsdl /o:.\ClientProxy

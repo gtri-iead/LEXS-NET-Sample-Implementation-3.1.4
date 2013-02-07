@@ -1,0 +1,16 @@
+=================================================================
+== .Net WCF Service and CLient Proxy Code Generation Tool      ==
+=================================================================
+
+
+The CodeGenerationTool is a Visual Studio 2010 solution that 
+contains a C# consola application project called WscfGen, which
+provides a command line interface to the Wscf.Blue application.
+
+Using this command line application, the user will be able to 
+generate either service or client proxy code from a WSDL file.
+
+
+For more informatino on Wscf.Blue can be found at
+http://wscfblue.codeplex.com.
+
