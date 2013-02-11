@@ -24,9 +24,9 @@ namespace LexsSearchRetrieveWebService
                 string appDataDir = HostingEnvironment.ApplicationPhysicalPath;
 
                 string samplesFolder = ConfigurationManager.AppSettings["SamplesFolder"];
-
+                
                 string sampleInstance = ConfigurationManager.AppSettings["ResponseXmlInstance"];
-
+                
                 string samplesDir = string.Empty;
 
                 if (appDataDir == null)
@@ -56,7 +56,7 @@ namespace LexsSearchRetrieveWebService
             requestType.StructuredSearchRequestMessage = request.StructuredSearchRequestMessage;
 
             string xmlPublish = SerializationUtils.SerializeToXmlString(requestType,
-                "doStructuredSearchRequest", "http://usdoj.gov/leisp/lexs/publishdiscover/3.1");
+                "doStructuredSearchRequest", "http://usdoj.gov/leisp/lexs/searchretrieve/3.1");
 
             string xmlFilePath = samplesDir + Path.DirectorySeparatorChar + "StructuredSearchRequest.xml";
 
@@ -68,7 +68,7 @@ namespace LexsSearchRetrieveWebService
 
         private static doStructuredSearchResponse GetResponse(doStructuredSearchRequest request, string sampleInstance, string samplesDir)
         {
-            string xmlFilePath = samplesDir + Path.DirectorySeparatorChar + sampleInstance;
+            string xmlFilePath = samplesDir + Path.DirectorySeparatorChar + "" + sampleInstance ;
 
             if (!File.Exists(xmlFilePath))
             {
@@ -78,11 +78,12 @@ namespace LexsSearchRetrieveWebService
             string xmlText = SerializationUtils.XmlStringFromFile(xmlFilePath);
 
             Type type = typeof(doSearchResponseType);
+
             doSearchResponseType searchResponseType = SerializationUtils.DeserializeFromXmlString(xmlText,
                 "doSearchResponse", "http://usdoj.gov/leisp/lexs/searchretrieve/3.1", type) as doSearchResponseType;
-
+            
             doStructuredSearchResponse structuredSearchResponse = new doStructuredSearchResponse(searchResponseType.SearchResponseMessage);
-
+            
             return structuredSearchResponse;
         }
         
