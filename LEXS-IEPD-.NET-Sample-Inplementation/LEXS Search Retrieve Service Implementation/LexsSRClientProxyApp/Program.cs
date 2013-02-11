@@ -58,13 +58,27 @@ namespace LexsSRClientProxyApp
             doStructuredSearchRequestType requestType = Deserialize(sampleInstancePath,
                 sampleXmlInstance, "doStructuredSearchRequest", "http://usdoj.gov/leisp/lexs/searchretrieve/3.1",
                 typeof(doStructuredSearchRequestType)) as doStructuredSearchRequestType;
-
             doStructuredSearchRequest request = new doStructuredSearchRequest(requestType.StructuredSearchRequestMessage);
-
             doStructuredSearchResponse reponse = proxy.doStructuredSearch(request);
+            SaveResponse(reponse, sampleInstancePath);
+        }
 
-            SerializeAndSave(reponse, "SearchRetrieveResponse.xml", "doSearchResponse",
-                "http://usdoj.gov/leisp/lexs/searchretrieve/3.1", typeof(doSearchResponseType));
+        private static void SaveResponse(doStructuredSearchResponse response, string samplesDir)
+        {
+            doSearchResponseType doSearchResponseType = new doSearchResponseType();
+            doSearchResponseType.SearchResponseMessage = response.SearchResponseMessage;
+
+            string xmlResponse = SerializationUtils.SerializeToXmlString(doSearchResponseType,
+                "doSearchResponse", "http://usdoj.gov/leisp/lexs/searchretrieve/3.1");
+
+            string xmlFilePath = samplesDir + Path.DirectorySeparatorChar + "SearchRetrieveResponse.xml";
+
+            XmlDocument outputXmlDoc = new XmlDocument();
+            outputXmlDoc.LoadXml(xmlResponse);
+
+            outputXmlDoc.Save(xmlFilePath);
+
+            Console.WriteLine("The response was saved to : " + xmlFilePath);
         }
 
         private static object Deserialize(string sampleInstancePath, string inputXmlFileName, 
@@ -75,28 +89,8 @@ namespace LexsSRClientProxyApp
 
             string xmlText = SerializationUtils.XmlStringFromFile(xmlFilePath);
 
-
             return SerializationUtils.DeserializeFromXmlString(xmlText, rootElementName, rootElementNamespace, rootElementType);
         }
 
-        private static void SerializeAndSave(object deserializedObject, string outputXmlFileName, 
-            string rootElementName, string rootElementNamespace, Type rootElementType)
-        {
-            string sampleInstancePath = ConfigurationManager.AppSettings["SamplesFolder"];
-
-            string outputXmlFile = outputXmlFileName;
-
-            string outputFile = sampleInstancePath + Path.DirectorySeparatorChar + outputXmlFile;
-
-            string xmlResponse = SerializationUtils.SerializeToXmlString(deserializedObject, rootElementName, rootElementNamespace);
-
-            XmlDocument outputXmlDoc = new XmlDocument();
-
-            outputXmlDoc.LoadXml(xmlResponse);
-
-            outputXmlDoc.Save(outputFile);
-
-            Console.WriteLine("Response file stored in: " + outputFile);
-        }
     }
 }
