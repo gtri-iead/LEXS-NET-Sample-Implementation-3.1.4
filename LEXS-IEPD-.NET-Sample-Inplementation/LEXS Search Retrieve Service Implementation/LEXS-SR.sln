@@ -1,11 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexsSearchRetrieveWebService", "LexsSearchRetrieveWebService\LexsSearchRetrieveWebService.csproj", "{C9839730-0F8E-406B-B4F4-C6805AE2156D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexsSearchRetrieveCommon", "LexsSearchRetrieveCommon\LexsSearchRetrieveCommon.csproj", "{81B1FFEF-3408-4D74-AD64-63F21F27C30F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexsSRWebServiceHostApp", "LexsSRWebServiceHostApp\LexsSRWebServiceHostApp.csproj", "{C6CD3BBA-3093-4CF9-BED4-31A857C2DC83}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D2B767C-67A6-4732-842E-8AC71577775A} = {3D2B767C-67A6-4732-842E-8AC71577775A}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexsSRClientProxyApp", "LexsSRClientProxyApp\LexsSRClientProxyApp.csproj", "{BB1DB0B6-C4E9-4C0B-BBF3-ABD98D42CF1B}"
 EndProject
